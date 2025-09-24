@@ -1,0 +1,539 @@
+body {      /* background color na sir*/
+    background-color:teal;
+}
+
+.header-container {    /* header style */
+    background: black;
+    padding: 0 40px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+    border-radius: 10px;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.header-title {      /* title style (sweettooth */
+    color: #ff9800;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+
+}
+
+.header {     /*styel jay header */
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+    background: black;
+}
+
+.header li {    /* */
+    margin: 0 20px;
+    display: inline;
+}
+
+.header a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.2s;
+    
+}
+
+.header a:hover {
+    color: #ff9800;
+}
+
+/*product feature*/
+.main-feature{       /*shop photo*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.shop-name{          /*shop name/title*/
+    margin-top: 50px;
+    text-align: center;
+    color: #ff9800;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin-bottom: 18px;
+}
+.feature-image {     /*feature image/first photo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.feature-image img {     /*style of the first photo*/
+    max-width: 500px;
+    width: 100%;;
+    display: block;
+}
+.shop-desc {        /*description of the page*/
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 18px;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+.feature-row {   /* products feature presentation*/
+    display: block;
+    margin-top: 30px;
+}
+
+.feature {        /*products feature*/
+    display: block;
+    background: #fff8e1;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 20px;
+    margin-bottom: 40px;
+    overflow: auto;
+    min-height: 220px;
+  }
+.feature img {      /*products feature photos x3*/
+    float: left;
+    max-width: 700px;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    margin-left: 24px;
+    margin-bottom: 0;
+    padding-top: 0;
+    display: block;
+}
+
+.feature-name {      /*product feature name*/
+    color: #ff9800;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.feature-text {      
+    overflow: hidden;
+}
+
+.description {       /*product feature description*/
+    color: #222;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0;
+}
+
+/*shop gallery*/
+.table img{
+    padding:50px; 
+    width: 200px; 
+    height:200px
+}
+
+.products{
+    text-align: center;
+}
+
+.shop-title {  /* Shop Gallery Grid */
+    text-align: center;
+    margin: 40px 0 30px 0;
+    padding-top: 20px;
+    color: #ff9800;
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.shop-section{
+    margin-left: 10px;
+    color: #ff9800;
+    background-color: black;
+    text-align: center;
+    width:30%;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 32px;
+    row-gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px 16px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    display: block;
+}
+
+.product-info {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    row-gap: 8px;
+    text-align: center;
+}
+.product-info div {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+.product-info button {
+    margin-top: 8px;
+    padding: 8px 18px;
+    background: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.product-info button:hover {
+    background: #ff6f61;
+}
+
+/*resume*/
+.resume-container {
+    max-width: 900px;
+    margin: 100px auto 40px; /* margin-top adjusted for fixed nav */
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    padding: 32px 24px;
+}
+
+.resume-float {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.profile {
+    flex: 0 0 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ff9800;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    margin-bottom: 16px;
+}
+
+.resume {
+    flex: 1;
+}
+
+.resume header h1 {
+    margin-bottom: 4px;
+    font-size: 35px;
+    color: #ff9800;
+}
+
+.resume header p {
+    color: #555;
+    margin-bottom: 18px;
+}
+
+.resume section {
+    margin-bottom: 22px;
+}
+
+.resume h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: #ff9800;
+    margin-bottom: 8px;
+    font-size: 19px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 2px;
+}
+
+.resume img {
+    width: 50%;
+}
+
+.about-me {
+    text-align: justify;
+}
+
+/* Hobbies */
+.hobby-list {
+    list-style: none;
+    padding: 0;
+}
+
+.hobby-item {
+    margin-bottom: 20px;
+}
+
+.hobby-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+  }
+.hobby-img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.hobby-text {
+    flex: 1;
+    padding: 0;
+    text-align: justify;
+}
+
+.hobby-text h3 {
+    color: #ff9800;
+    margin: 0 0 8px 0;
+    font-size: 16px;
+}
+
+.hobby-text p {
+    margin: 0;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Activities */
+.activity-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.activity-item {
+    margin-bottom: 15px;
+}
+
+.activity-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.activity-img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.activity-text {
+    flex: 1;
+    padding: 0;
+    text-align: justify;
+}
+
+.activity-text p {
+    margin: 0;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Calendar */
+.calendar-aside {
+    background: #f9f9f9;
+    border: 2px solid #ff9800;
+    border-radius: 10px;
+    padding: 15px;
+    flex: 0 0 250px;
+    align-self: flex-start;
+    height: fit-content;
+    margin-bottom: 0;
+}
+
+.calendar-aside h2 {
+    color: #ff9800;
+    margin-bottom: 8px;
+    font-size: larger;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calendar-header h3 {
+    color: #222;
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calendar-grid {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    overflow: hidden;
+  }
+.calendar-table {
+    width: 100%;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.calendar-table th,
+.calendar-table td {
+    padding: 8px 2px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    min-height: 30px;
+    vertical-align: middle;
+}
+
+.day-header {
+    background: teal;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.day {
+    background: #fff;
+    color: #555;
+    font-weight: 500;
+}
+
+.empty-day {
+    background: transparent;
+    border: none;
+    min-height: 30px;
+}
+
+.birthday-day {
+    background: teal;
+    color: #ff9800;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    position: relative;
+}
+
+.birthday-icon {
+    margin-left: 3px;
+    font-size: 10px;
+}
+
+.github-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #ff9800;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: 1px solid #ff9800;
+    border-radius: 5px;
+}
+
+.github-link:hover {
+    background-color: #ff9800;
+    color: white;
+}
+
+.table img{
+    padding:50px; 
+    width: 200px; 
+    height:200px
+}
+
+/*footer*/
+.contact-form {
+    height: 500px;
+    width: 50%;
+    font-size: x-large;
+    margin: 40px auto;
+    padding:20px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    background-color: white;
+    align-items: center;
+}
+
+.contact-form h1{
+text-align: center;
+margin-bottom: 20px;
+}
+
+.contact-form label {
+display: block;
+margin: bottom 10px;
+}
+
+.contact-form input, .contact-form textarea{
+width:95%;
+padding:10px;
+margin-bottom:10px;
+border:1px solid #555;
+}
+
+.contact-form button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: black;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 95%;
+    align-content: center;
+}
+
+.contact-form button:hover{
+background-color: #dd8502;
+}
+
+.contact-form p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 0%;
+
+  }
